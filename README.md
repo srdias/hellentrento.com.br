@@ -1,16 +1,30 @@
-# React + Vite
+# 🌐 Hellen Trento - Website Profissional
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é o repositório oficial do website da psicóloga **Hellen Trento**, desenvolvido pela **Equipe Tony (Agência Digital)**. O projeto foca em alta conversão, autoridade e posicionamento estratégico para profissionais da área da saúde.
 
-Currently, two official plugins are available:
+## 🚀 Tecnologias Utilizadas
+- **Core:** React.js + Vite
+- **Styling:** Vanilla CSS (Design Premium & Customizado)
+- **Otimização:** GEO (Generative Engine Optimization), SEO e AEO.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 👥 Equipe do Projeto
+O desenvolvimento foi orquestrado pelo **Tony (Diretor)** e executado pelos especialistas:
+- **Paulo:** Designer & UX (Estética Premium)
+- **Jorge:** Copywriting (Narrativa Terapêutica)
+- **João:** Front-End Developer (Performance & Animações)
+- **Sobrau:** Otimização para IA (SEO/GEO/LLMO)
 
-## React Compiler
+## 📁 Estrutura de Conhecimento
+O repositório contém uma central de inteligência no diretório `/AGENCY_KNOWLEDGE`, detalhando as skills e padrões utilizados:
+- [Branding & Identidade Visual](./AGENCY_KNOWLEDGE/SKILL_VISUAL_IDENTITY.md)
+- [Copywriting para Saúde](./AGENCY_KNOWLEDGE/SKILL_COPYWRITING_THERAPY.md)
+- [Padrões Front-End](./AGENCY_KNOWLEDGE/SKILL_FRONTEND_PATTERNS.md)
+- [Otimizações de Visibilidade](./AGENCY_KNOWLEDGE/SKILL_OPTIMIZATION_GEO.md)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠 Como Rodar o Projeto
+1. Clone este repositório.
+2. Instale as dependências: `npm install`
+3. Inicie o servidor de desenvolvimento: `npm run dev`
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+*Desenvolvido com foco em transformação e bem-estar emocional.*
