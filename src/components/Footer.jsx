@@ -10,8 +10,9 @@ const Footer = () => {
         <div className="footer-brand">
           <img src={logo} alt="Hellen Trento Logo" className="footer-logo" />
           <p>
-            Psicóloga Clínica (CRP 12/26936)<br />
-            Atendimento presencial e on-line com foco em TCC.
+            Hellen Trento Pickler • CRP 12/26936<br />
+            Psicoterapia baseada em TCC.<br />
+            Criciúma - SC e Atendimento On-line.
           </p>
         </div>
         

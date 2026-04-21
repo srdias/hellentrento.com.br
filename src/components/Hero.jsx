@@ -7,10 +7,10 @@ const Hero = () => {
     <section id="home" className="hero">
       <div className="container hero-container">
         <div className="hero-text">
-          <span className="hero-subtitle">Psicóloga Clínica</span>
-          <h1>Hellen Trento Pickler</h1>
+          <span className="hero-subtitle">Psicóloga Clínica • TCC</span>
+          <h1>Resgate seu Equilíbrio e Autonomia</h1>
           <p className="hero-description">
-            Acolhimento e suporte emocional com profissionalismo para ajudar você a encontrar o seu equilíbrio.
+            Acolhimento humanizado e psicoterapia baseada em evidências para ajudar você a superar a ansiedade, o medo e reencontrar sua liberdade emocional.
           </p>
           <div className="hero-btns">
             <a href="https://wa.me/5548999341192" className="btn btn-primary" target="_blank" rel="noopener noreferrer">

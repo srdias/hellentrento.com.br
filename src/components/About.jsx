@@ -1,7 +1,7 @@
 import React from 'react';
 import './About.css';
 import logo from '../assets/logo3_preta.png';
-import { GraduationCap, Certificate } from 'phosphor-react';
+import { GraduationCap, IdentificationBadge } from 'phosphor-react';
 
 const About = () => {
   return (
@@ -9,16 +9,14 @@ const About = () => {
       <div className="container about-container">
         <div className="about-content">
           <span className="subtitle">Minha Trajetória</span>
-          <h2>Sobre Hellen Trento</h2>
+          <h2>Acolhimento autêntico e base científica</h2>
           <p>
             Olá! Sou psicóloga apaixonada por acompanhar pessoas em seus processos de descoberta e fortalecimento emocional. 
-            Com registro no CRP 12/26936, baseio minha prática clínica na <strong>Terapia Cognitivo-Comportamental (TCC)</strong>, 
-            uma abordagem científica focada na resolução de problemas e na mudança de padrões disfuncionais.
+            Baseio minha prática clínica na <strong>Terapia Cognitivo-Comportamental (TCC)</strong>, a abordagem padrão-ouro da psicologia moderna, que produz mudanças eficazes e duradouras.
           </p>
           <p>
-            Minha missão é proporcionar um espaço de <strong>acolhimento autêntico</strong>, onde você se sinta seguro(a) 
-            para explorar suas vulnerabilidades sem julgamentos. Acredito que a terapia é um investimento em si mesmo, 
-            permitindo que você retome as rédeas da sua vida com mais consciência e ferramentas práticas.
+            Meu objetivo é proporcionar um espaço de <strong>escuta ativa e sem julgamentos</strong>, onde você se sinta seguro(a) 
+            para explorar suas vulnerabilidades e desenvolver ferramentas práticas para retomar as rédeas da sua vida com mais autonomia.
           </p>
           <div className="credentials">
             <div className="credential-item">
@@ -29,7 +27,7 @@ const About = () => {
               </div>
             </div>
             <div className="credential-item">
-              <Certificate size={32} weight="light" color="var(--primary)" />
+              <IdentificationBadge size={32} weight="light" color="var(--primary)" />
               <div>
                 <strong>Especialização</strong>
                 <span>Terapia Cognitivo-Comportamental</span>
