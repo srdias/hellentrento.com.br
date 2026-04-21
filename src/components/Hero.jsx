@@ -27,7 +27,7 @@ const Hero = () => {
         </div>
         <div className="hero-image reveal" style={{animationDelay: '0.6s'}}>
           <div className="image-wrapper">
-            <img src={foto} alt="Hellen Trento" />
+            <img src={foto} alt="Hellen Trento Psicóloga Clínica" />
             <div className="image-accent"></div>
           </div>
         </div>

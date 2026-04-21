@@ -37,7 +37,7 @@ const About = () => {
         </div>
         <div className="about-visual">
           <div className="logo-frame">
-            <img src={logo} alt="HT Logo" />
+            <img src={logo} alt="Logotipo Hellen Trento Psicologia" />
           </div>
         </div>
       </div>

@@ -8,7 +8,7 @@ const Footer = () => {
     <footer id="contato" className="footer">
       <div className="container footer-container">
         <div className="footer-brand">
-          <img src={logo} alt="Hellen Trento Logo" className="footer-logo" />
+          <img src={logo} alt="Logo Hellen Trento" className="footer-logo" />
           <p>
             Hellen Trento Pickler • CRP 12/26936<br />
             Psicoterapia baseada em TCC.<br />
