@@ -1,0 +1,110 @@
+.services {
+  background-color: var(--white);
+}
+
+.subtitle {
+  display: block;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--primary);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 0.5rem;
+}
+
+.section-header h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.section-description {
+  max-width: 700px;
+  margin: 0 auto;
+  color: var(--text-muted);
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 4rem;
+}
+
+.service-card {
+  padding: 3rem 2rem;
+  background-color: var(--background);
+  border-radius: 20px;
+  transition: var(--transition);
+  border: 1px solid transparent;
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+  background-color: var(--white);
+  border-color: var(--secondary);
+  box-shadow: var(--shadow);
+}
+
+.service-icon {
+  color: var(--primary);
+  margin-bottom: 1.5rem;
+  display: flex;
+}
+
+.service-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.service-card p {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+}
+
+.services-footer {
+  margin-top: 6rem;
+}
+
+.service-modes {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.mode-card {
+  flex: 1;
+  padding: 2.5rem;
+  background-color: var(--secondary);
+  border-radius: 20px;
+  text-align: center;
+}
+
+.mode-card svg {
+  margin-bottom: 1rem;
+}
+
+.mode-card h4 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+  color: var(--primary-dark);
+}
+
+.mode-card p {
+  font-size: 0.9rem;
+  color: var(--text-main);
+}
+
+.mt-4 { margin-top: 4rem; }
+
+@media (max-width: 768px) {
+  .section-header h2 {
+    font-size: 2.2rem;
+  }
+  
+  .service-modes {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+}
