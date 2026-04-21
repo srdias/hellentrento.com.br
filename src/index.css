@@ -101,6 +101,32 @@ section {
   background-color: var(--primary);
   color: var(--white);
 }
+.process {
+  background-color: var(--white);
+  padding: 8rem 0;
+  position: relative;
+}
+
+/* Wave Dividers */
+.wave-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.wave-top svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 60px;
+}
+
+.wave-top .shape-fill {
+  fill: var(--background);
+}
 
 .text-center { text-align: center; }
 .mb-1 { margin-bottom: 1rem; }
