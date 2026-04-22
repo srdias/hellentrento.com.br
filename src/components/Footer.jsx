@@ -11,7 +11,7 @@ const Footer = () => {
           <img src={logo} alt="Logo Hellen Trento" className="footer-logo" />
           <p>
             Hellen Trento Pickler • CRP 12/26936<br />
-            Especialista em Dependência Emocional e Relacionamentos.<br />
+            Especialista em Dependência Emocional e Relacionamentos Amorosos.<br />
             Psicoterapia baseada em TCC.
           </p>
         </div>

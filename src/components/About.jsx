@@ -9,12 +9,12 @@ const About = () => {
       <div className="container about-container">
         <div className="about-content">
           <span className="subtitle">Minha Trajetória</span>
-          <h2>Vocação e Ciência a serviço da sua Autonomia</h2>
+          <h2>Dedicada a transformar sua relação com você e com o outro</h2>
           <p>
             Minha jornada com a psicologia começou cedo: decidi que seria psicóloga aos 11 anos de idade. Hoje, com registro CRP 12/26936, transformei esse desejo em uma prática clínica focada em <strong>ajudar mulheres a recuperarem sua liberdade e segurança emocional</strong>.
           </p>
           <p>
-            Especialista em <strong>Terapia Cognitivo-Comportamental (TCC)</strong>, trabalho na identificação de padrões profundos que geram dependência emocional e dificuldades nos relacionamentos, permitindo que você construa uma vida mais autêntica e plena.
+            Especialista em <strong>Terapia Cognitivo-Comportamental (TCC)</strong>, trabalho na identificação de padrões profundos que geram dependência emocional e dificuldades em relacionamentos amorosos, permitindo que você construa uma vida mais autêntica e plena.
           </p>
           <div className="credentials">
             <div className="credential-item">

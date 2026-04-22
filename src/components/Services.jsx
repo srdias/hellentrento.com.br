@@ -18,8 +18,8 @@ const services = [
     icon: <TrendUp size={40} weight="light" />
   },
   {
-    title: 'Conflitos de Relacionamento',
-    description: 'Suporte para lidar com términos, ciúmes excessivos e dinâmicas tóxicas, buscando vínculos mais saudáveis e leves.',
+    title: 'Relacionamentos Amorosos',
+    description: 'Suporte especializado para lidar com crises, términos, ciúmes e dinâmicas afetivas, buscando vínculos mais saudáveis e seguros.',
     icon: <Users size={40} weight="light" />
   },
   {
