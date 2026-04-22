@@ -9,14 +9,12 @@ const About = () => {
       <div className="container about-container">
         <div className="about-content">
           <span className="subtitle">Minha Trajetória</span>
-          <h2>Acolhimento autêntico e base científica</h2>
+          <h2>Vocação e Ciência a serviço da sua Autonomia</h2>
           <p>
-            Olá! Sou psicóloga apaixonada por acompanhar pessoas em seus processos de descoberta e fortalecimento emocional. 
-            Baseio minha prática clínica na <strong>Terapia Cognitivo-Comportamental (TCC)</strong>, a abordagem padrão-ouro da psicologia moderna, que produz mudanças eficazes e duradouras.
+            Minha jornada com a psicologia começou cedo: decidi que seria psicóloga aos 11 anos de idade. Hoje, com registro CRP 12/26936, transformei esse desejo em uma prática clínica focada em <strong>ajudar mulheres a recuperarem sua liberdade e segurança emocional</strong>.
           </p>
           <p>
-            Meu objetivo é proporcionar um espaço de <strong>escuta ativa e sem julgamentos</strong>, onde você se sinta seguro(a) 
-            para explorar suas vulnerabilidades e desenvolver ferramentas práticas para retomar as rédeas da sua vida com mais autonomia.
+            Especialista em <strong>Terapia Cognitivo-Comportamental (TCC)</strong> e <strong>Terapia do Esquema</strong>, trabalho na identificação de padrões profundos que geram dependência emocional e dificuldades nos relacionamentos, permitindo que você construa uma vida mais autêntica e plena.
           </p>
           <div className="credentials">
             <div className="credential-item">

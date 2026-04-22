@@ -13,34 +13,34 @@ import './Services.css';
 
 const services = [
   {
-    title: 'Ansiedade e Estresse',
-    description: 'Aprenda a lidar com as pressões do dia a dia e encontre ferramentas para acalmar a mente, resgatando seu equilíbrio no cotidiano.',
-    icon: <Wind size={40} weight="light" />
+    title: 'Dependência Emocional',
+    description: 'Aprenda a romper ciclos de necessidade excessiva da aprovação do outro e reconstrua sua identidade com segurança.',
+    icon: <TrendUp size={40} weight="light" />
   },
   {
-    title: 'Depressão',
-    description: 'Suporte especializado para redescobrir o propósito e recuperar o bem-estar emocional, transformando padrões de sofrimento em esperança.',
-    icon: <Sun size={40} weight="light" />
-  },
-  {
-    title: 'Autoconhecimento',
-    description: 'Entenda seus padrões de comportamento e potencialize suas forças pessoais para uma vida mais autêntica e alinhada aos seus valores.',
-    icon: <UserFocus size={40} weight="light" />
-  },
-  {
-    title: 'Terapia de Casal',
-    description: 'Fortalecimento de vínculos e melhoria da comunicação no relacionamento, construindo uma base sólida de parceria e respeito mútuo.',
+    title: 'Conflitos de Relacionamento',
+    description: 'Suporte para lidar com términos, ciúmes excessivos e dinâmicas tóxicas, buscando vínculos mais saudáveis e leves.',
     icon: <Users size={40} weight="light" />
   },
   {
-    title: 'Luto e Perdas',
-    description: 'Acolhimento humanizado para atravessar momentos difíceis de transição e perda, permitindo que a dor se transforme em saudade serena.',
+    title: 'Terapia do Esquema',
+    description: 'Trabalho profundo para identificar e modificar padrões (esquemas) formados na infância que afetam sua vida adulta.',
+    icon: <Wind size={40} weight="light" />
+  },
+  {
+    title: 'Autonomia e Autoestima',
+    description: 'Desenvolva o amor-próprio e a força necessária para tomar decisões baseadas em seus próprios valores e desejos.',
+    icon: <Sun size={40} weight="light" />
+  },
+  {
+    title: 'Ansiedade e Insegurança',
+    description: 'Aprenda a lidar com o medo do abandono e a ansiedade que surge quando você não se sente no controle da sua vida.',
     icon: <Butterfly size={40} weight="light" />
   },
   {
-    title: 'Desenvolvimento Pessoal',
-    description: 'Foco em objetivos de vida, carreira e superação de limitações para conquistar a vida plena e satisfatória que você merece.',
-    icon: <TrendUp size={40} weight="light" />
+    title: 'Mitos do Afeto Moderno',
+    description: 'Diferenciando demonstrações reais de afeto de sinais superficiais das redes sociais, focando no que realmente importa.',
+    icon: <UserFocus size={40} weight="light" />
   }
 ];
 
@@ -55,7 +55,7 @@ const Services = () => {
         
         <div className="services-grid">
           {services.map((service, index) => (
-            <div key={index} className="service-card reveal">
+            <div key={index} className="service-card reveal" style={{animationDelay: `${index * 0.1}s`}}>
               <div className="service-icon">
                 {service.icon}
               </div>

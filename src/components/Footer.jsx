@@ -11,8 +11,8 @@ const Footer = () => {
           <img src={logo} alt="Logo Hellen Trento" className="footer-logo" />
           <p>
             Hellen Trento Pickler • CRP 12/26936<br />
-            Psicoterapia baseada em TCC.<br />
-            Criciúma - SC e Atendimento On-line.
+            Especialista em Dependência Emocional e Relacionamentos.<br />
+            Terapia do Esquema e TCC.
           </p>
         </div>
         
