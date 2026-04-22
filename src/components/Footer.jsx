@@ -12,7 +12,7 @@ const Footer = () => {
           <p>
             Hellen Trento Pickler • CRP 12/26936<br />
             Especialista em Dependência Emocional e Relacionamentos.<br />
-            Terapia do Esquema e TCC.
+            Psicoterapia baseada em TCC.
           </p>
         </div>
         

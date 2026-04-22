@@ -27,7 +27,7 @@
 
 .quote-icon {
   color: var(--primary);
-  opacity: 0.15;
+  opacity: 0.5; /* Aumentado para melhor contraste */
   margin-bottom: 1.5rem;
 }
 

@@ -14,7 +14,7 @@ const About = () => {
             Minha jornada com a psicologia começou cedo: decidi que seria psicóloga aos 11 anos de idade. Hoje, com registro CRP 12/26936, transformei esse desejo em uma prática clínica focada em <strong>ajudar mulheres a recuperarem sua liberdade e segurança emocional</strong>.
           </p>
           <p>
-            Especialista em <strong>Terapia Cognitivo-Comportamental (TCC)</strong> e <strong>Terapia do Esquema</strong>, trabalho na identificação de padrões profundos que geram dependência emocional e dificuldades nos relacionamentos, permitindo que você construa uma vida mais autêntica e plena.
+            Especialista em <strong>Terapia Cognitivo-Comportamental (TCC)</strong>, trabalho na identificação de padrões profundos que geram dependência emocional e dificuldades nos relacionamentos, permitindo que você construa uma vida mais autêntica e plena.
           </p>
           <div className="credentials">
             <div className="credential-item">

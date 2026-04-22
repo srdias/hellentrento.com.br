@@ -18,6 +18,14 @@ const faqs = [
   {
     question: "O atendimento on-line é tão eficaz quanto o presencial?",
     answer: "Sim. Estudos científicos comprovam que a eficácia da psicoterapia on-line é equivalente à presencial para a maioria das demandas. O importante é garantir um local privado e uma boa conexão à internet."
+  },
+  {
+    question: "Como saber se preciso de ajuda para Dependência Emocional?",
+    answer: "Se você sente que sua felicidade depende exclusivamente do outro, tem medo excessivo do abandono ou anula seus desejos para agradar, esses são sinais de alerta. A terapia ajuda a resgatar sua identidade e limites."
+  },
+  {
+    question: "É possível mudar padrões de relacionamento que se repetem?",
+    answer: "Com certeza. Através da TCC, mapeamos as crenças que te levam a escolher os mesmos perfis de parceiros ou aceitar as mesmas dinâmicas, trabalhando na mudança prática desses comportamentos para atrair laços mais saudáveis."
   }
 ];
 

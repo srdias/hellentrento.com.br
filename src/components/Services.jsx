@@ -23,8 +23,8 @@ const services = [
     icon: <Users size={40} weight="light" />
   },
   {
-    title: 'Terapia do Esquema',
-    description: 'Trabalho profundo para identificar e modificar padrões (esquemas) formados na infância que afetam sua vida adulta.',
+    title: 'Crenças e Padrões',
+    description: 'Identificação e mudança de pensamentos disfuncionais que sabotam sua felicidade e seus relacionamentos através da TCC.',
     icon: <Wind size={40} weight="light" />
   },
   {

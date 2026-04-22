@@ -10,7 +10,7 @@ const Hero = () => {
           <span className="hero-subtitle reveal" style={{animationDelay: '0.1s'}}>Psicóloga • Especialista em Dependência Emocional e Relacionamentos</span>
           <h1 className="reveal" style={{animationDelay: '0.2s'}}>Recupere sua Autonomia e Liberdade no Amor</h1>
           <p className="hero-description reveal" style={{animationDelay: '0.3s'}}>
-            Te ajudo a quebrar ciclos de dependência e a construir relacionamentos saudáveis através da Terapia Cognitivo-Comportamental e Terapia do Esquema.
+            Te ajudo a quebrar ciclos de dependência e a construir relacionamentos saudáveis através da Terapia Cognitivo-Comportamental (TCC).
           </p>
           <div className="hero-btns reveal" style={{animationDelay: '0.4s'}}>
             <a href="https://wa.me/5548999341192" className="btn btn-primary" target="_blank" rel="noopener noreferrer">
