@@ -1,0 +1,15 @@
+name: hellentrento
+
+services:
+  app:
+    build: .
+    container_name: hellentrento-app
+    restart: always
+    ports:
+      - "5182:80"
+    networks:
+      - hellentrento-network
+
+networks:
+  hellentrento-network:
+    driver: bridge

@@ -28,3 +28,35 @@ O repositório contém uma central de inteligência no diretório `/AGENCY_KNOWL
 
 ---
 *Desenvolvido com foco em transformação e bem-estar emocional.*
+
+## 🚢 Deploy (Produção na VPS)
+
+Este projeto está configurado para deploy contínuo via **GitHub Actions** em uma VPS Linux dedicada.
+
+### ⚙️ Configuração da Porta
+- A aplicação utiliza a porta fixa **5182** no host da VPS.
+- O mapeamento Docker é `5182:80`.
+
+### 🔐 Secrets Necessários (GitHub Actions)
+Para que o workflow funcione, configure os seguintes segredos no repositório:
+- `DEPLOY_SSH_HOST`: IP ou hostname do servidor.
+- `DEPLOY_SSH_USER`: Usuário com permissão para Docker/Sudo.
+- `DEPLOY_SSH_PRIVATE_KEY`: Chave SSH privada (RSA/ED25519).
+- `DEPLOY_SSH_PORT`: Porta SSH (padrão 22).
+- `DEPLOY_ENV_BASE64`: (Opcional) Conteúdo do arquivo `.env` codificado em base64.
+
+### 🌐 Configuração do Reverse Proxy (Caddy/Nginx)
+O administrador da VPS deve configurar o proxy reverso para apontar o domínio para o serviço local:
+
+1. **DNS**: Apontar `hellentrento.com.br` e `www` para o IP da VPS.
+2. **Reverse Proxy Configuration (ex: Caddy)**:
+   ```caddy
+   hellentrento.com.br, www.hellentrento.com.br {
+       reverse_proxy 127.0.0.1:5182
+   }
+   ```
+
+### 🛠 Scripts de Deploy
+- `Dockerfile`: Multi-stage build (Node -> Nginx).
+- `docker-compose.yml`: Define o serviço `hellentrento-app`.
+- `scripts/vps-deploy.sh`: Script de automação que sincroniza os arquivos via `rsync` e reinicia o container.
