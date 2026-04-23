@@ -3,15 +3,6 @@ name: Production Deployment (VPS)
 on:
   push:
     branches: [ "main" ]
-    paths:
-      - 'src/**'
-      - 'public/**'
-      - 'package*.json'
-      - 'vite.config.js'
-      - 'index.html'
-      - 'Dockerfile'
-      - 'docker-compose.yml'
-      - 'scripts/vps-deploy.sh'
   workflow_dispatch:
 
 jobs:
