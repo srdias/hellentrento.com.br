@@ -1,7 +1,7 @@
 import React from 'react';
 import { WhatsappLogo } from 'phosphor-react';
 import './FloatingWhatsApp.css';
-import { trackWhatsAppClick } from '../utils/analytics';
+import { handleWhatsAppClick } from '../utils/analytics';
 
 const FloatingWhatsApp = () => {
   return (
@@ -11,7 +11,7 @@ const FloatingWhatsApp = () => {
       target="_blank" 
       rel="noopener noreferrer"
       aria-label="Falar pelo WhatsApp"
-      onClick={() => trackWhatsAppClick('floating_button')}
+      onClick={() => handleWhatsAppClick('contato_flutuante', 'floating_button')}
     >
       <WhatsappLogo size={32} weight="fill" />
       <span className="tooltip">Fale Comigo</span>

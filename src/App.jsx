@@ -8,9 +8,14 @@ import Process from './components/Process';
 import FAQ from './components/FAQ';
 import FloatingWhatsApp from './components/FloatingWhatsApp';
 import Footer from './components/Footer';
+import { trackPageViewCRM } from './utils/analytics';
 import './App.css';
 
 function App() {
+  React.useEffect(() => {
+    trackPageViewCRM();
+  }, []);
+
   return (
     <div className="App">
       <Navbar />

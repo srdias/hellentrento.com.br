@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './Navbar.css';
 import logo from '../assets/logo3_preta.png';
-import { trackWhatsAppClick } from '../utils/analytics';
+import { handleWhatsAppClick } from '../utils/analytics';
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -31,7 +31,7 @@ const Navbar = () => {
           className="btn btn-primary nav-btn" 
           target="_blank" 
           rel="noopener noreferrer"
-          onClick={() => trackWhatsAppClick('navbar')}
+          onClick={() => handleWhatsAppClick('agendamento_navbar', 'navbar')}
         >
           Agendar
         </a>

@@ -2,6 +2,7 @@ import React from 'react';
 import './Footer.css';
 import logo from '../assets/logo3_preta.png';
 import { WhatsappLogo, InstagramLogo } from 'phosphor-react';
+import { handleWhatsAppClick } from '../utils/analytics';
 
 const Footer = () => {
   return (
@@ -32,7 +33,12 @@ const Footer = () => {
             <a href="https://www.instagram.com/psihellentrento" target="_blank" rel="noopener noreferrer">
               <InstagramLogo size={24} weight="light" /> @psihellentrento
             </a>
-            <a href="https://wa.me/5548999341192?text=Olá%20Hellen,%20vim%20pelo%20site%20e%20gostaria%20de%20informações%20sobre%20o%20atendimento%20em%20psicoterapia." target="_blank" rel="noopener noreferrer">
+            <a 
+              href="https://wa.me/5548999341192?text=Olá%20Hellen,%20vim%20pelo%20site%20e%20gostaria%20de%20informações%20sobre%20o%20atendimento%20em%20psicoterapia." 
+              target="_blank" 
+              rel="noopener noreferrer"
+              onClick={() => handleWhatsAppClick('contato_rodape', 'footer')}
+            >
               <WhatsappLogo size={24} weight="light" /> WhatsApp
             </a>
           </div>

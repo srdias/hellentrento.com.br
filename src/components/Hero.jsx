@@ -1,7 +1,7 @@
 import React from 'react';
 import './Hero.css';
 import foto from '../assets/foto.jpeg';
-import { trackWhatsAppClick } from '../utils/analytics';
+import { handleWhatsAppClick } from '../utils/analytics';
 
 const Hero = () => {
   return (
@@ -19,7 +19,7 @@ const Hero = () => {
               className="btn btn-primary" 
               target="_blank" 
               rel="noopener noreferrer"
-              onClick={() => trackWhatsAppClick('hero_section')}
+              onClick={() => handleWhatsAppClick('agendamento_consulta', 'hero')}
             >
               Agendar Consulta
             </a>
