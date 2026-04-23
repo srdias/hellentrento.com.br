@@ -114,6 +114,7 @@
   
   .hero-btns {
     justify-content: center;
+    flex-wrap: wrap;
   }
   
   .hero-quote {
