@@ -1,6 +1,7 @@
 import React from 'react';
 import './Hero.css';
 import foto from '../assets/foto.jpeg';
+import { trackWhatsAppClick } from '../utils/analytics';
 
 const Hero = () => {
   return (
@@ -13,7 +14,13 @@ const Hero = () => {
             Te ajudo a romper ciclos de dependência em seus relacionamentos afetivos e a construir vínculos seguros através da Terapia Cognitivo-Comportamental.
           </p>
           <div className="hero-btns reveal" style={{animationDelay: '0.4s'}}>
-            <a href="https://wa.me/5548999341192" className="btn btn-primary" target="_blank" rel="noopener noreferrer">
+            <a 
+              href="https://wa.me/5548999341192" 
+              className="btn btn-primary" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              onClick={() => trackWhatsAppClick('hero_section')}
+            >
               Agendar Consulta
             </a>
             <a href="#sobre" className="btn btn-outline" style={{marginLeft: '1rem'}}>

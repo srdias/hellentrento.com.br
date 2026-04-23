@@ -1,0 +1,12 @@
+# Robots.txt para hellentrento.com.br
+# Agência Tony - Otimização Sobrau
+
+User-agent: *
+Allow: /
+
+# Bloquear pastas de sistema se necessário
+Disallow: /node_modules/
+Disallow: /dist/
+
+# Link para o Sitemap (ajuste para o domínio final)
+Sitemap: https://hellentrento.com.br/sitemap.xml

@@ -29,8 +29,8 @@ const Footer = () => {
         <div className="footer-social">
           <h4>Social</h4>
           <div className="social-links">
-            <a href="https://www.instagram.com/hellentrento.psi" target="_blank" rel="noopener noreferrer">
-              <InstagramLogo size={24} weight="light" /> @hellentrento.psi
+            <a href="https://www.instagram.com/psihellentrento" target="_blank" rel="noopener noreferrer">
+              <InstagramLogo size={24} weight="light" /> @psihellentrento
             </a>
             <a href="https://wa.me/5548999341192" target="_blank" rel="noopener noreferrer">
               <WhatsappLogo size={24} weight="light" /> WhatsApp

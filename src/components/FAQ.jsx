@@ -4,28 +4,24 @@ import './FAQ.css';
 
 const faqs = [
   {
-    question: "Como funciona a Terapia Cognitivo-Comportamental (TCC)?",
-    answer: "A TCC é uma abordagem prática e focada no presente. Trabalhamos na identificação e mudança de padrões de pensamento e comportamento que geram sofrimento, buscando resultados concretos e autonomia para o paciente."
+    question: "Como saber se eu vivo uma dependência emocional?",
+    answer: "Se você sente que sua felicidade depende exclusivamente da aprovação do outro, tem medo paralisante do abandono ou anula seus próprios desejos para evitar conflitos, você está vivendo um ciclo de dependência. A terapia ajuda a resgatar sua autonomia e segurança emocional."
   },
   {
-    question: "Qual a duração e frequência das sessões?",
-    answer: "As sessões individuais duram em média 50 minutos. A frequência recomendada costuma ser semanal, especialmente no início do processo, para garantir a continuidade e eficácia do tratamento."
+    question: "A terapia ajuda a quebrar os ciclos de 'dedo podre' no amor?",
+    answer: "Sim. Através da Terapia Cognitivo-Comportamental (TCC), mapeamos os padrões invisíveis que te levam a escolher parceiros que não te valorizam. O objetivo é reprogramar essas crenças para que você sinta segurança em estabelecer vínculos saudáveis e equilibrados."
   },
   {
-    question: "Você atende por convênio médico?",
-    answer: "Trabalho exclusivamente com atendimentos particulares, mas emito recibos para que você possa solicitar o reembolso junto ao seu plano de saúde (consulte as condições da sua operadora)."
+    question: "O atendimento on-line é realmente eficaz para demandas profundas?",
+    answer: "Com certeza. O atendimento on-line segue as mesmas normas éticas e de sigilo do presencial, com a vantagem da flexibilidade. O acolhimento e a profundidade técnica da TCC garantem resultados tão eficazes quanto as sessões de consultório."
   },
   {
-    question: "O atendimento on-line é tão eficaz quanto o presencial?",
-    answer: "Sim. Estudos científicos comprovam que a eficácia da psicoterapia on-line é equivalente à presencial para a maioria das demandas. O importante é garantir um local privado e uma boa conexão à internet."
+    question: "Em quanto tempo começo a sentir mudanças nos meus relacionamentos?",
+    answer: "A TCC é uma abordagem focada em resultados. Embora cada processo seja único, o foco é oferecer ferramentas práticas desde as primeiras sessões para que você aprenda a lidar com a ansiedade, os ciúmes e a insegurança de forma autônoma."
   },
   {
-    question: "Como saber se preciso de ajuda para Dependência Emocional?",
-    answer: "Se você sente que sua felicidade depende exclusivamente do outro, tem medo excessivo do abandono ou anula seus desejos para agradar, esses são sinais de alerta. A terapia ajuda a resgatar sua identidade e limites."
-  },
-  {
-    question: "É possível mudar padrões de relacionamento que se repetem?",
-    answer: "Com certeza. Através da TCC, mapeamos as crenças que te levam a escolher os mesmos perfis de parceiros ou aceitar as mesmas dinâmicas, trabalhando na mudança prática desses comportamentos para atrair laços mais saudáveis."
+    question: "Como funciona a primeira conversa?",
+    answer: "O primeiro contato serve para entendermos sua demanda e como posso te ajudar. É um espaço seguro, sem julgamentos, onde daremos o primeiro passo para você recuperar sua liberdade e parar de aceitar migalhas de atenção."
   }
 ];
 

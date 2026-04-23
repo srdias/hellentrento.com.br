@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './Navbar.css';
 import logo from '../assets/logo3_preta.png';
+import { trackWhatsAppClick } from '../utils/analytics';
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -25,7 +26,13 @@ const Navbar = () => {
           <li><a href="#atendimentos">Atendimentos</a></li>
           <li><a href="#contato">Contato</a></li>
         </ul>
-        <a href="https://wa.me/5548999341192" className="btn btn-primary nav-btn" target="_blank" rel="noopener noreferrer">
+        <a 
+          href="https://wa.me/5548999341192" 
+          className="btn btn-primary nav-btn" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          onClick={() => trackWhatsAppClick('navbar')}
+        >
           Agendar
         </a>
       </div>
