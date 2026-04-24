@@ -50,7 +50,8 @@ ssh -p "$SSH_PORT" -i ~/.ssh/id_rsa "$DEPLOY_SSH_USER@$DEPLOY_SSH_HOST" << EOF
     cd $REMOTE_DIR
     # Build and restart only this project's containers
     # Using project name 'hellentrento' for absolute isolation
-    docker compose -p hellentrento build
+    # Force rebuild without cache once to ensure clean base path
+    docker compose -p hellentrento build --no-cache
     docker compose -p hellentrento up -d --remove-orphans
     echo "Deployment successful! Site should be available on port $HOST_PORT (via localhost on VPS)."
 EOF
